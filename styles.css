@@ -1,0 +1,79 @@
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #308da2, #d40707);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-section .btn-primary {
+    padding: 0.8em 2em;
+    font-size: 1.2rem;
+    background-color: #009ffd;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hero-section .btn-primary:hover {
+    background-color: #a62626;
+    transform: scale(1.05);
+}
+
+/* Footer Styling */
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-left,
+.footer-right {
+    flex: 1;
+    min-width: 300px;
+}
+
+.footer-left h3,
+.footer-right h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-left p {
+    line-height: 1.6;
+}
+
+/* Bottom Section */
+.footer-bottom {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    border-top: 1px solid #444;
+    padding-top: 1rem;
+}
+
+footer {
+    background: linear-gradient(to right, #444, #222);
+}

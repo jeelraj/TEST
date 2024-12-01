@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Zone</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Gaming Zone</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#games">Games</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section text-white text-center">
+        <div class="container">
+            <h1 class="display-4">Welcome to Gaming Zone</h1>
+            <p class="lead">Discover the latest games, updates, and tournaments!</p>
+            <a href="#games" class="btn btn-primary btn-lg">Explore Games</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">About Us</h2>
+            <p class="text-center">Gaming Zone is the ultimate hub for gamers. From the latest releases to the most
+                competitive tournaments, we bring everything gaming under one roof. Whether you're a casual player or an
+                eSports enthusiast, we've got something for everyone!</p>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section id="games" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Games</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://avatars.mds.yandex.net/i?id=4f0b1d54b4b5d6c0f57d879de54f8cc27112277a-10136504-images-thumbs&n=13"
+                            class="card-img-top" alt="Game 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Clash of Clans</h5>
+                            <p class="card-text">
+                                Town Hall of the 11th level is completely rebuilt; the walls of Town Hall are now faced
+                                with stone. Wooden penning gate has been replaced with a massive chain bars.
+
+                                At the 11th level of the game you will get access to 4 additional buildings and 2 new
+                                units . Elixir Storage and Gold Storage can be upgraded to the 12th level, and the
+                                Laboratory can be upgraded to the 9th level. As for the defensive structures, now you
+                                will get access to the Wizard Tower of the 9th level.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://avatars.mds.yandex.net/i?id=70a2ceddc335ab710a823276d14e194f0d56734c-4283547-images-thumbs&n=13"
+                            class="card-img-top" alt="Game 2">
+                        <div class="card-body">
+                            <a href="http://play.google.com/store/search?q=BGMI&c=apps&hl=en_IN"></a>
+                            <h5 class="card-title">BATTLE GRUONDS MOBILE INDIA</h5>
+                            <p class="card-text">BGMI is a legendary game for Indian players and the best thing about
+                                this game it goes in real
+                                time where you play with real people in that game, and that's why every player wants to
+                                show
+                                their presence through stories and status. So this article could be very much useful to
+                                you.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://avatars.mds.yandex.net/i?id=2a0000017a00ffad9e53eb55dcaa431a506f-4886004-images-thumbs&n=13"
+                            class="card-img-top" alt="Game 3">
+                        <div class="card-body">
+                            <h5 class="card-title">GTA 5</h5>
+                            <p class="card-text">
+                                Grand Theft Auto 5 is one of the most popular video games of all time. Rockstar Games
+                                threw everything but the kitchen sink into the development of this landmark title, which
+                                most people still consider to be one of the best games ever made. The sheer amount of
+                                fun that you can have in this massive sandbox is limitless, with player freedom playing
+                                a major role in making this title so infinitely engaging.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <p class="text-center">Have any questions or suggestions? Feel free to reach out to us!</p>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="John Doe" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="john@example.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea id="message" class="form-control" rows="5"
+                                placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <!-- Left Section -->
+            <div class="footer-left">
+                <h3>About Gaming </h3>
+                <p>
+                    Five Lines, also known as pente grammai in Greek, is an ancient board game where two players move
+                    five counters on a board with five lines. The game is believed to have originated in Ancient Greece
+                    and was considered a noble game for centuries
+                </p>
+            </div>
+
+
+        </div>
+
+
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
